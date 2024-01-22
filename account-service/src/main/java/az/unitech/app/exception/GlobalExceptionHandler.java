@@ -38,7 +38,6 @@ public class GlobalExceptionHandler extends DefaultErrorAttributes {
 
     @ExceptionHandler(
     {
-//        jakarta.validation.ConstraintViolationException.class,
         org.hibernate.exception.ConstraintViolationException.class,
         DataIntegrityViolationException.class
     })
